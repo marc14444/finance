@@ -1,0 +1,106 @@
+body{
+    background-color:  rgb(63, 28, 106);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    top: 0;
+    position: fixed;
+    z-index: 8;
+}
+input[type="checkbox"]{
+    display: none;
+}
+nav .main_pages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .main_pages a{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    color: white;
+}
+
+label{
+    display: none;
+}
+.monicone{
+    width: 25px;
+    height: 25px;
+}
+
+nav .main_pages input{
+    width: 200px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    background: none;
+    padding-left: 20px;
+    outline-style: none;
+}
+
+.recherche{ 
+    width: 200px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    background-color:  rgba(14, 6, 24, 0.245);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.recherche div img{ 
+    width: 20px;
+    height: 20px;
+    margin-top: -68px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+@media all and (max-width: 991px){
+
+    nav{
+        height: 60px;
+    }
+    nav .main_pages{
+        display: none;
+    }
+    nav .main_pages{
+        display: none;
+        flex-direction: column;
+        height: 320px;
+    }
+    nav .main_pages a{
+          width: 50%;
+    }
+    label{
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+    #toggle:checked + .main_pages{
+        display: flex;
+    }
+    
+}
+.grand-logo{
+    border: none;
+}
