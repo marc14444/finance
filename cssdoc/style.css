@@ -4,14 +4,15 @@ body{
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* partie navbare */
 
 nav{
     width: 100%;
     margin: 0 auto;
     font-size: 1.5rem;
     top: 0;
-    position: fixed;
-    z-index: 8;
+/*     position: fixed;
+    z-index: 8; */
 }
 input[type="checkbox"]{
     display: none;
@@ -101,6 +102,286 @@ nav .main_pages input{
     }
     
 }
+
 .grand-logo{
     border: none;
+}
+/* partie text */
+.contenaire{
+    margin-top: 100px;
+    /* margin: 0 auto; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grand-carrer-text{
+    display: grid;
+    width: 500px;
+    /* flex-wrap: wrap; */
+}
+
+.gros-text{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+
+}
+
+.description{
+    width: 300px;
+    height: 100px;
+    font-size: 3rem;
+    color: white;
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115.5%; /* 57.75px */
+}
+
+.description-carte{
+    width: 410px;
+    font-size: 1.2rem;
+    color: white;
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+/*     margin-top: -8rem; */
+}
+
+.bouton-reserver{
+    width: 220px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 3px solid #7B34D4;
+    background: #FFF;
+    box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
+    color: #7B34D4;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mes-trois-petits-bouton{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.cercle1{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.716);
+}
+
+
+.carte-image{
+    width: 450px;
+    height: 400px;
+    background-image: url('../imagerie/master\ card.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    border: 0px solid black;
+}
+.carre-poucentage{
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    grid-template-columns: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.element{
+    width: 311px;
+    height: 226px;
+    flex-shrink: 0;
+    margin: 30px;
+    border-radius: 5px;
+    background: #FFF;
+}
+.element .petite-icone{
+    width: 78px;
+    height: 73px;
+    flex-shrink: 0;
+    background-image: url('./../imagerie/mode-de-paiement.png');
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.element .intro{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 150px;
+}
+.element .chiffre{
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 50px;
+    letter-spacing: 2.24px;
+}
+.element .la-valeur{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    margin-left: 130px;
+}
+.element .decrit{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.element .petite-icone{
+    width: 78px;
+    height: 73px;
+    flex-shrink: 0;
+    background-image: url('./../imagerie/mode-de-paiement.png');
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.element .intro{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 150px;
+}
+.element .chiffre{
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 50px;
+    letter-spacing: 2.24px;
+}
+.element .la-valeur{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    margin-left: 130px;
+}
+.element .decrit{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.element .petite-icone2{
+    width: 78px;
+    height: 73px;
+    flex-shrink: 0;
+    background-image: url('./../imagerie/donner-de-largent.png');
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.element .petite-icone3{
+    width: 78px;
+    height: 73px;
+    flex-shrink: 0;
+    background-image: url('./../imagerie/paiement-securise.png');
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mot-meilleure-choix{
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.mot-meilleure-choix .choix{
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.mot-meilleure-choix .petit-pub{
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.logo-et-ecriture{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.arrier-bleue{
+    width: 100%;
+    height: 800px;
+    background: #1A093E;
+    margin-top: -200px;
 }
