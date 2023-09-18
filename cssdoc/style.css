@@ -368,20 +368,134 @@ nav .main_pages input{
     align-items: center;
 }
 
+.grande-div-de-tous{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
-
-
-
-
-
-
-
-
-
+.card1{
+    width: 500px;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.card2{
+    width: 500px;
+    height: 400px;
+    background-image: url('./../imagerie/telephone-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card3{
+    width: 500px;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.titre{
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.petit-text{
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* .globe-icone{
+    width: 100px;
+    height: 100px;
+    stroke: #FFF;
+} */
+.zone-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.case-icone1{
+    width: 60px;
+    height: 60px;
+    background-image: url('./../imagerie/broche-de-localisation.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.case-icone2{
+    width: 60px;
+    height: 60px;
+    background-image: url('./../imagerie/banque.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.case-icone3{
+    width: 60px;
+    height: 60px;
+    background-image: url('./../imagerie/service-clients.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.case-icone4{
+    width: 60px;
+    height: 60px;
+    background-image: url('./../imagerie/silhouette-de-famille.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.case-icone5{
+    width: 60px;
+    height: 60px;
+    background-image: url('./../imagerie/profil-de-lutilisateur.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.case-icone6{
+    width: 60px;
+    height: 60px;
+    background-image: url('./../imagerie/parametres.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ensavoirplus{
+    margin: 0 auto;
+    display: grid;
+    width: 300px;
+    height: 300px;
+}
+.bouton-en-savoir-plus1{
+    width: 220px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 3px solid #7B34D4;
+    background: #FFF;
+    box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
+    color: #7B34D4;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
 
 .arrier-bleue{
     width: 100%;
-    height: 800px;
+    height: 950px;
     background: #1A093E;
-    margin-top: -200px;
+    margin-top: -850px;
+    position: relative;
+    z-index: -1;
 }
