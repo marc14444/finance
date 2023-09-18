@@ -370,13 +370,14 @@ nav .main_pages input{
 
 .grande-div-de-tous{
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 350px;
     width: 80%;
     height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
 }
 
 .card1{
@@ -493,9 +494,276 @@ nav .main_pages input{
 
 .arrier-bleue{
     width: 100%;
-    height: 950px;
+    height: 1000px;
     background: #1A093E;
-    margin-top: -850px;
-    position: relative;
-    z-index: -1;
+    margin-top: -350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.le-contenant{
+    width: 100%;
+    height: 1000px auto;
+    background: #D9D9D9;
+
+}
+.div-text-presentation{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.card-de-text1{
+    width: 400px;
+    height: 300px;
+}
+.card-de-text1 p{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.card-de-text2{
+    width: 300px;
+    height: 300px;
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.card-de-text3{
+    width: 300px;
+    height: 300px;
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.card-de-text4{
+    width: 300px;
+    height: 300px;
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.carde-stat1{
+    width: 100px;
+    height: 100px;
+    background-image: url('./../imagerie/ecran.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+.carde-stat2{
+    width: 100px;
+    height: 100px;
+    background-image: url('./../imagerie/boite-de-reception.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+.carde-stat3{
+    width: 100px;
+    height: 100px;
+    background-image: url('./../imagerie/objectif.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+.card-de-text2 p{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 100px;
+}
+.card-de-text3 p{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 70px;
+}
+.card-de-text4 p{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 70px;
+}
+.card-de-text2 span{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+}
+.card-de-text3 span{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+}
+.card-de-text4 span{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+}
+.card-text-image{
+    width: 709px;
+    height: 365px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-image: url('./../imagerie/paiement-par-carte-bancaire.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-text-propos{
+    width: 709px;
+    height: 365px;
+    flex-shrink: 0;
+    margin-top: 50px;
+}
+.card-text-propos p{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.temoignage{
+    width: 100%;
+    height: 1000px auto;
+    background: #FFF;
+}
+.fleche-sticky{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #7B34D4;
+    float: right;
+    position: sticky;
+    background-image: url('./../imagerie/fleche-vers-le-haut.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-de-temoignage{
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-image-de-temoignage{
+    width: 300px;
+    height: 300px;
+    background-image: url('./../imagerie/Fabrication-bijoux-Salomé-Ricot.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+blockquote{
+    width: 400px;
+    height: auto;
+}
+blockquote p{
+    color: #000;
+    font-family: 'Poppins' sans-serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.partie-statistique{
+    width: 100%;
+    height: 1000px auto;
+    background: #1A093E;
+}
+.les-sous-parties-de-stat{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.parti1{
+    width: 300px;
+    height: 200px;
+}
+.parti1 p{
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.parti2{
+    width: 400px;
+    height: 400px;
+    background-image: url('./../imagerie/statistiques.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parti3{
+    width: 300px;
+    height: 200px;
+}
+.parti3 p{
+    color: rgba(255, 255, 255, 0.58);
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.voir-tous-stat{
+    margin-top: 100px;
+    border-radius: 100px;
+    background: #7B34D4;
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 306px;
+    height: 52px;
+    flex-shrink: 0;
+    border: none;
+}
+.partie-choix-carte{
+
 }
