@@ -49,6 +49,8 @@ nav .main_pages input{
     background: none;
     padding-left: 20px;
     outline-style: none;
+    color: #FFF;
+    padding-right: 20px;
 }
 
 .recherche{ 
@@ -82,10 +84,19 @@ nav .main_pages input{
     nav .main_pages{
         display: none;
         flex-direction: column;
-        height: 320px;
+        height: 150px;
+        background: #1A093E;
+    }
+    nav .main_pages .logo-de-banque{
+        display: none;
     }
     nav .main_pages a{
           width: 50%;
+          font-size: 20px;
+          margin: -20px;
+    }
+    .recherche{
+        display: none;
     }
     label{
         width: 30px;
@@ -96,9 +107,57 @@ nav .main_pages input{
         font-size: 40px;
         color: white;
         cursor: pointer;
+        float: right;
     }
     #toggle:checked + .main_pages{
         display: flex;
+    }
+    .arrier-bleue .grande-div-de-tous{
+        overflow: hidden;
+    }
+    .contenaire .grand-carrer-text .description{
+        margin-left: 10px;
+    }
+    .contenaire .grand-carrer-text .description-carte{
+        font-size: 1rem;
+        width: auto;
+        height: auto;
+    }
+    .contenaire .carte-image{
+        width: 300px;
+        height: 300px;
+    }
+    .div-text-presentation .card-text-image{
+        width: 300px;
+        height: 300px;
+    }
+    .div-text-presentation .card-text-propos{
+        width: 300px;
+        height: auto;
+    }
+    .les-sous-parties-de-stat .parti2{
+        width: 300px;
+        height: 300px;
+    }
+    .partie-choix-carte .sous-choix .carte-maintenat{
+        width: 400px;
+        height: auto;
+        margin-left: 50px;
+    }
+    .grande-case .case-des-propos1 {
+        width: 300px;
+        height: auto;
+    }
+    .grande-case .case-des-propos2 {
+        width: 300px;
+        height: auto;
+        /* margin-top: -200px; */
+    }
+    .grande-case .case-des-propos1 .copy{
+        display: none;
+    }
+    .temoignage a .fleche-sticky{
+        top: 700px;
     }
     
 }
@@ -665,16 +724,17 @@ nav .main_pages input{
     height: 1000px auto;
     background: #FFF;
 }
-.fleche-sticky{
+.fleche-sticky {
     width: 50px;
     height: 50px;
     border-radius: 100%;
     background: #7B34D4;
-    float: right;
-    position: sticky;
-    background-image: url('./../imagerie/fleche-vers-le-haut.png');
+    background-image: url("./../imagerie/fleche-vers-le-haut.png");
     background-size: cover;
     background-repeat: no-repeat;
+    position: fixed;
+    top: 950px;
+    z-index: 1;
 }
 .card-de-temoignage{
     /* margin: 0 auto; */
@@ -765,5 +825,345 @@ blockquote p{
     border: none;
 }
 .partie-choix-carte{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.sous-choix{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
 
+}
+.commander{
+    border-radius: 100px;
+    background: #7B34D4;
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 160px;
+    height: 52px;
+    flex-shrink: 0;
+    border: none;
+    margin-top: -20px;
+}
+.carte-maintenat{
+    width: 758px;
+    height: 53px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.procedure{
+    width: 100%;
+    height: auto;
+    background: #D9D9D9;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.sous-procedure .comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+.les-4-etapes{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.etape1{
+
+    margin: 20px;
+
+}
+.ico1{
+    width: 200px;
+    height: 200px;
+    background: #FFF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ico1 div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url('./../imagerie/carte-didentite.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ico2{
+    width: 200px;
+    height: 200px;
+    background: #FFF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ico2 div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url('./../imagerie/formulaire.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ico3{
+    width: 200px;
+    height: 200px;
+    background: #FFF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ico3 div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url('./../imagerie/offres.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ico4{
+    width: 200px;
+    height: 200px;
+    background: #FFF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ico4 div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url('./../imagerie/carte-de-debit.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titre-de-para{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.81px;
+}
+.etape1 span{
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.63px;
+}
+
+.grande-case-questions{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.case-des-questions-partie1{
+    width: 500px;
+    height: 800px;
+}
+.case-des-questions-partie2{
+    width: 500px;
+    height: 800px;
+}
+.case-q{
+    width: 100%;
+    height: 200px;
+}
+.titre-de-q{
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.case-q{
+    color: rgba(217, 217, 217, 0.67);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.abonnement{
+    width: 300px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.88);
+    margin-top: -10px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abonnement input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline-style: none;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: none;
+}
+.logomail{
+    width: 20px;
+    height: 20px;
+    background-image: url('./../imagerie/poster.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.abonnement input::placeholder{
+    color: #000;
+}
+
+.grande-case{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.case-des-propos1{
+    width: 400px;
+    height: auto;
+}
+.logo-en-bas{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.mbank-style{
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -5px;
+}
+.image-la{
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.copy{
+    color: rgba(217, 217, 217, 0.67);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 562px;
+    height: 33px;
+    flex-shrink: 0;
+    margin-top: 200px;
+}
+
+
+.case-des-propos2{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.case-pro{
+    color: rgba(217, 217, 217, 0.67);
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#nom-et-prenom{
+    width: 80%;
+    height: 52px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.88);
+    border: none;
+    outline-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    font-size: 1.3rem;
+}
+#nom-et-prenom::placeholder{
+    color: #000;
+    font-size: 1rem;
+}
+#email{
+    width: 80%;
+    height: 52px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.88);
+    border: none;
+    outline-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    font-size: 1.3rem;
+}
+#email::placeholder{
+    color: #000;
+    font-size: 1rem;
+}
+textarea{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.88);
+    border: none;
+    outline-style: none;
+    color: #000;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+textarea::placeholder{
+    color: #000;
+    font-size: 1rem;
+}
+
+.s-media{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
 }
