@@ -5,7 +5,6 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* partie navbare */
-
 nav{
     width: 100%;
     margin: 0 auto;
@@ -71,8 +70,7 @@ nav .main_pages input{
     background-repeat: no-repeat;
 
     
-}
-a{
+}a{
     text-decoration: none;
 }
 
@@ -269,7 +267,6 @@ a{
     .sous-procedure{
         margin-left: -250px;
     }
-   
     .procedure .sous-procedure .comment{
         font-size: 1rem;
         text-align: center;
@@ -282,6 +279,7 @@ a{
     overflow-x: hidden;
    }
 }
+
 
 
 .grand-logo{
