@@ -78,43 +78,6 @@ a{
 
 @media all and (max-width: 1728px){
 
-    nav{
-        height: 60px;
-    }
-    nav .main_pages{
-        display: none;
-    }
-    nav .main_pages{
-        display: none;
-        flex-direction: column;
-        height: 150px;
-        background: #1A093E;
-    }
-    nav .main_pages .logo-de-banque{
-        display: none;
-    }
-    nav .main_pages a{
-          width: 50%;
-          font-size: 20px;
-          margin: -20px;
-    }
-    .recherche{
-        display: none;
-    }
-    label{
-        width: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        font-size: 40px;
-        color: white;
-        cursor: pointer;
-        float: right;
-    }
-    #toggle:checked + .main_pages{
-        display: flex;
-    }
     .arrier-bleue .grande-div-de-tous{
         overflow: hidden;
     }
