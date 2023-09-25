@@ -55,7 +55,7 @@ nav .main_pages input{
 
 
 nav .main_pages a:hover {
-  color: #f0094a;
+  color: #f0094a9b;
   background: transparent;
    box-shadow:none;
 }
@@ -67,7 +67,7 @@ nav .main_pages a:after{
   right:0;
   height:2px;
   width:0;
-  background: #f0094a;
+  background: #f0094a9b;
   box-shadow:
    -1px -1px 5px 0px #fff,
    7px 7px 20px 0px #0003,
@@ -85,25 +85,6 @@ nav .main_pages a:hover:after{
   width:100%;
   transition:800ms ease all;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .recherche{ 
@@ -1431,3 +1412,124 @@ form {
 .popup-style-5:target{
     top:0;
 }
+
+.les-transaction{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.les-transaction input{
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.88);
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    outline-style: none;
+}
+.les-transaction input::placeholder{
+color: #000;
+}
+
+
+.mon-boutton-valide{
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #7B34D4;
+    color: #FFF;
+    font-size: 1.3rem;
+    border: none;
+    cursor: pointer;
+}
+.mon-boutton-valide:hover{
+    background-image: linear-gradient(red,blue);
+}
+
+
+.popup-link{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  .popup-link a{
+      background: #1A093E;
+      color: #fff;
+      padding: 10px 30px;
+      border-radius: 5px;
+      font-size:17px;
+      cursor:pointer;
+      margin:20px;
+      text-decoration:none;
+  }
+  
+  .popup-container {
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      transform: scale(1.3);
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(21, 17, 17, 0.61);
+      display: flex;
+      align-items: center;
+  }
+  .popup-content {
+      background-color: #1A093E;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 50%;
+  }
+  .popup-content p{
+      font-size: 17px;
+      padding: 10px;
+      line-height: 20px;
+  }
+  .popup-content a.close{
+      color: #FFF;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      background: none;
+      padding: 0;
+      margin: 0;
+      text-decoration:none;
+  }
+  
+  .popup-content a.close:hover{
+    color:#7B34D4;
+  }
+  
+  .popup-content span:hover,
+  .popup-content span:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  
+  .popup-container:target{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  
+  .popup-style-5{
+      top:100%;
+      
+  }
+  .popup-style-5:target{
+      top:0;
+  }
+  textarea{
+    font-family: 'poppins',sans-serif;
+  }
+  
