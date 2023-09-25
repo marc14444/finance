@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../cssdoc/connecter.css">
     <title>MBank</title>
+    <script src="../jsdoc/connecter.js" defer></script>
 </head>
 <body>
     <!-- partie de navbar -->
@@ -22,8 +23,8 @@
             <a href="" target="_self">
               contacts
                </a>
-               <a href="#popup5" target="_self">
-                    <img src="./../imagerie/utilisateur.png" alt="" srcset="" width="50px" height="50px" class="grand-logo">
+               <a href="#popup5" target="_self" id="affich">
+                    <img src="./../imagerie/utilisateur.png" alt="" srcset="" width="50px" height="50px" class="grand-logo" id="afficher">
                 </a>
            <div class="recherche"> 
                 <input type="text">
@@ -310,7 +311,7 @@
             <form action="">
                 <div class="mes-input-de-connexion">
                     <a href=""><button>Modification</button></a><br>
-                    <a href="./../index.html" style="text-decoration: none;"><button> <a href="./../index.html" style="color: #FFF;">Déconnexion</a></button></a>
+                    <a href="./../index.html" style="text-decoration: none;"><button> <a href="./../index.html" onclick="logout()" style="color: #FFF;">Déconnexion</a></button></a>
                 </div>
             </form>
             </div>
@@ -366,6 +367,6 @@
    </div>
    </a>
 </div>
-
+<!-- <script src="./../jsdoc/afficherinfo.js"></script> -->
 </body>
 </html>

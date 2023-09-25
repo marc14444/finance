@@ -1366,3 +1366,50 @@ form {
 .popup-style-5:target{
     top:0;
 }
+
+
+
+
+
+
+
+
+
+
+
+nav .main_pages a:hover {
+    top: 0;
+    position: sticky;
+    z-index: 8;
+    background: #1A093E;
+    color: #f0094a;
+    background: transparent;
+     box-shadow:none;
+  }
+  nav .main_pages a:before,
+  nav .main_pages a:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #f0094a;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  nav .main_pages a:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  nav .main_pages a:hover:before,
+  nav .main_pages a:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  

@@ -18,10 +18,10 @@
                 <p>Type de Compte (Account Type) :</p>
             </div>
             <div class="tous-les-input">
-                <div class="cheick-input1"><input type="checkbox"><label for="">Compte courant</label></div>
-                <div class="cheick-input2"><input type="checkbox"><label for="">Compte d’Epargne</label></div>
-                <div class="cheick-input3"><input type="checkbox"><label for="">Autre Compte</label></div>
-                <div class="cheick-input4"><input type="file" placeholder="PHOTO"></div>
+                <div class="cheick-input1"><input type="checkbox" id="compteCourant"><label for="">Compte courant</label></div>
+                <div class="cheick-input2"><input type="checkbox" id="compteEpargne"><label for="">Compte d’Epargne</label></div>
+                <div class="cheick-input3"><input type="checkbox" id="autreCompte"><label for="">Autre Compte</label></div>
+                <div class="cheick-input4"><input type="file" placeholder="PHOTO" id="photo"></div>
             </div>    
             <div class="details-du-demandeur"><span>DETAILS DU DEMANDEUR</span></div>
             <div class="champs">
@@ -30,7 +30,7 @@
                     <input type="text" placeholder="Prénoms" id="prenom">
                 </div>
                 <div class="groupe-input1" style="margin-top: 30px;">
-                    <input type="date" placeholder="Date et Lieu de naissance " id="dates">
+                    <input type="date" placeholder="Date et Lieu de naissance " id="datesDenaissance">
                     <input type="text" placeholder="Adresse" id="adresse">
                 </div>
                 <div class="groupe-input1" style="margin-top: 30px;">
@@ -51,11 +51,12 @@
                 </div>
             </div>
             <div class="tous-les-input1">
-                <div class="cheick-input1"><label for="">sexe:</label><input type="checkbox"><label for="">Masculin</label><input type="checkbox"><label for="">Feminin</label></div>
-                <div class="cheick-input1"><label for="">Situation de famille:</label><input type="checkbox"><label for="">Marié</label><input type="checkbox"><label for="">Célibataire</label><input type="checkbox"><label for="">Autre</label></div>
+                <div class="cheick-input1"><label for="">sexe:</label><input type="checkbox" id="masculin"><label for="">Masculin</label><input type="checkbox" id="feminin"><label for="">Feminin</label></div>
+                <div class="cheick-input1"><label for="">Situation de famille:</label><input type="checkbox" id="marie"><label for="">Marié</label><input type="checkbox" id="celibataire"><label for="">Célibataire</label><input type="checkbox" id="autre"><label for="">Autre</label></div>
             </div>
-            <div class="details-du-demandeur"><a href="./../htmldoc/connexion.html"><button type="submit"><a href="./../htmldoc/connexion.html" style="text-decoration: none; color: #fff;">inscription</a></button></a></div>
+            <div class="details-du-demandeur"><a href="./../htmldoc/connexion.html"><button type="submit"><a href="./../htmldoc/connexion.html" style="text-decoration: none; color: #fff;" id="buttonn">inscription</a></button></a></div>
        </div>
     </form>
+    <script src="./../jsdoc/inscription.js"></script>
 </body>
 </html>
