@@ -20,7 +20,7 @@
                     <input type="text" placeholder="Prénom legal" id="prenom">
                 </div>
                 <div class="groupe-input1" style="margin-top: 30px;">
-                    <input type="date" placeholder="Date et Lieu de naissance " id="dates">
+                    <input type="text" placeholder="Date et Lieu de naissance " id="dates">
                     <input type="text" placeholder="Adresse" id="adresse">
                 </div>
                 <div class="groupe-input1" style="margin-top: 30px;">
@@ -32,29 +32,29 @@
                     <input type="email" placeholder="Adresse E-mail" id="adresseMail">
                 </div>
                 <div class="groupe-input1" style="margin-top: 30px;">
-                    <input type="text" placeholder="ville" id="motDePasse">
-                    <input type="file" placeholder="Photo complet" id="confirmationMotDePasse">
+                    <input type="text" placeholder="ville" id="ville">
+                    <input type="file" placeholder="Photo complet" id="PhotoComplet">
                 </div>
                 <div class="groupe-input1" style="margin-top: 30px;">
-                    <input type="file" placeholder="numéro de carte d’identité" id="codeBanque">
-                    <input type="text" placeholder="Nom de la mère ou du père" id="codeGuichet">
+                    <input type="file" placeholder="numéro de carte d’identité" id="numeroDeCarteDidentite">
+                    <input type="text" placeholder="Nom de la mère ou du père" id="NomDeLaMereOuDuPere">
                 </div>
                 <div class="groupe-input1" style="margin-top: 30px;">
-                    <input type="text" placeholder="situation matrimoniale" id="motDePasse">
-                    <input type="text" placeholder="code postal" id="confirmationMotDePasse">
+                    <input type="text" placeholder="situation matrimoniale" id="situationMatrimoniale">
+                    <input type="text" placeholder="code postal" id="codePostal">
                 </div>
                 <div class="groupe-input1" style="margin-top: 30px;">
-                    <input type="text" placeholder="Adresse du domicile" id="codeBanque">
-                    <input type="number" placeholder="Montant de demande" id="codeGuichet">
+                    <input type="text" placeholder="Adresse du domicile" id="adresseDuDomicile">
+                    <input type="number" placeholder="Montant de demande" id="montantDeDemande">
                 </div>
                 <div class="groupe-input3"style="margin-top: 30px;">
                     <input type="checkbox">
                     <span>nous vous informormons que nous beneficierons de 40% annuel <br>si vôtre projets est approuvé par notre service êtes vous d’accord?</span>
                 </div>
-                <textarea placeholder="details du projet"></textarea>
+                <textarea placeholder="details du projet" id="message"></textarea>
             </div>
            
-            <div class="details-du-demandeur"><a href="#popup5"><button type="submit"><a href="#popup5" style="text-decoration: none; color: #fff;">Validé</a></button></a></div>
+            <div class="details-du-demandeur"><a href="#popup5"><button type="submit" class="bouton"><a href="#popup5" style="text-decoration: none; color: #fff;">Validé</a></button></a></div>
        </div>
     </form>
     <div class="pop">
@@ -74,5 +74,6 @@
             </div>
         </div>
    </div>
+   <script src="./../jsdoc/msg.js"></script>
 </body>
 </html>
