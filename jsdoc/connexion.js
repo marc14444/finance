@@ -42,18 +42,4 @@ formulaire .addEventListener("submit", (e) =>{
         window.location.reload()
     }
 
-
-
-    // console.log(typeof verifAdmin);
-    // if (typeof verifAdmin != 'undefined') {
-    //     window.location.replace("./../htmldoc/dashboard.html");
-    // }
-
-    // if (typeof result !== "undefined"){
-    //     localStorage.setItem("session", JSON.stringify(result))
-    //     window.location.replace("./../htmldoc/connecter.html");
-    // }
-
-    //  userlist.push(user)
-    // localStorage.setItem("tab_LS", JSON.stringify(userlist));
 })
