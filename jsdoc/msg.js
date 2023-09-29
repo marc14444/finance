@@ -39,4 +39,8 @@ let bouton = document.querySelector(".bouton");
         }
         demandePret.push(utilisateur);
         localStorage.setItem("pretInfo", JSON.stringify(demandePret));
+        alert("votre demande a été effectuer avec succes")
+
+
+       window.location.href = "../htmldoc/pret.html";
     })
